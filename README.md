@@ -16,7 +16,7 @@ List of source code files where each file has:
   - The file ID of the original file from which the snippet was extracted
 
 
-You can find the dataset [here](https://limewire.com/d/EhgZ6#2pMCXa4A5T)
+You can find the dataset [here](https://drive.google.com/file/d/1s5VOQdbQcavqJX_7GKjOsyb6Ab5vPYQg/view?usp=share_link)
  
 ## Instructions
 - You should use [Faiss](https://github.com/facebookresearch/faiss) to find the matching results between the original file and the code snippet.
@@ -28,8 +28,9 @@ You can find the dataset [here](https://limewire.com/d/EhgZ6#2pMCXa4A5T)
 - How much data can we support?
 - Additional considerations:
   - Compare between L2 distance vs. cosine similarity
-  - Apply PCA to reduce embedding dimensionality
   - Explore and implement quantization approaches
+- Extra Step
+  - Apply PCA to reduce embedding dimensionality
 
 ### Note
 
